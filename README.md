@@ -1,23 +1,39 @@
-Calculadora Java
+# Calculadora Java
 
-Calculadora simples via terminal, feita em Java como exercício de aprendizado. 
-Permite realizar operações matemáticas básicas com validação de entrada e 
-histórico de resultados salvo em arquivo.
+Calculadora simples via terminal, feita em Java como exercício de aprendizado. Permite realizar operações matemáticas básicas com validação de entrada e histórico de resultados salvo em arquivo.
 
-Funcionalidades:
+## Funcionalidades
+
 - Soma, subtração, multiplicação e divisão
 - Validação de números digitados (evita travar com entrada inválida)
 - Validação do símbolo da operação escolhida
 - Tratamento de divisão por zero
-- Histórico de cálculos salvo automaticamente em historico.txt
+- Histórico de cálculos salvo automaticamente em `historico.txt`
 - Loop para realizar múltiplos cálculos sem precisar reiniciar o programa
 
-Como executar:
+## Como executar
+
+Compile e rode pelo terminal:
+
+```bash
 javac Main.java
 java Main
+```
 
-Tecnologias utilizadas:
+## Exemplo de uso
+
+```
+Digite o primeiro número: 10
+Digite o segundo número: 2
+Qual a operação desejada? (+) (-) (*) (/)
+/
+Resultado = 5.0
+Deseja calcular novamente? (sim/não): não
+```
+
+## Tecnologias utilizadas
+
 - Java
-- Classe Scanner para entrada de dados
-- Classe FileWriter para escrita de arquivo (histórico)
-- Tratamento de exceções (try/catch)
+- Classe `Scanner` para entrada de dados
+- Classe `FileWriter` para escrita de arquivo (histórico)
+- Tratamento de exceções (`try/catch`)
